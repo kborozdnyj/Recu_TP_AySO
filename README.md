@@ -1,1 +1,1 @@
-# Recu_TP_AySO
+Nombre = Kiara Borozdnyj | Comision = 111 | Turno = Mañana

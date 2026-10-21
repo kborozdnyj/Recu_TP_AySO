@@ -1,0 +1,5 @@
+sudo groupadd p1c1_2026_g1
+sudo useradd -m -s /bin/bash -G p1c1_2026_g1 -p "$(openssl passwd -crypt clave1)" p1c1_2026_u1
+sudo chown -R p1c1_2026_u1:p1c1_2026_g1 /datos
+sudo chmod -R 750 /datos
+sudo su -c "whoami > /datos/validar1.txt" p1c1_2026_u1
